@@ -1,0 +1,249 @@
+.topbar-container {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #263044;
+}
+
+/* Logo */
+.logo-container {
+  width: 145px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  padding: 18px 16px;
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+/* Socials */
+.socials-container {
+  width: 71px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 3px;
+  border-radius: 3px;
+  background-color: #1a2539;
+}
+
+.link-icon-container {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #121829;
+}
+
+.down-icon-container {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.socials-menu-container {
+  width: 174px;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  padding: 5px;
+  top: 55px;
+  background-color: #121829;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.socials-menu-top {
+  width: 100%;
+  height: 40px;
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials-menu-item {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #263044;
+  cursor: pointer;
+}
+
+.socials-menu-bottom {
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.socials-menu-custom-button {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: none;
+  background-color: #1a2539;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Menu */
+.menus-container {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 16px;
+  overflow: hidden;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dropdown-menu {
+  width: 186px;
+  height: auto;
+  gap: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  padding: 5px;
+  top: 55px;
+  background-color: #121829;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+.dropdown-menu-item {
+  width: 100%;
+  height: 40px;
+  gap: 5px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 3px;
+  background-color: #1a2539;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buttons-container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 16px;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+/* Login */
+.login-button {
+  width: 158px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: 1px solid #dd8e32;
+  background-color: #263044;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Register */
+.register-button {
+  width: 158px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  border: none;
+  background-color: #dd8e32;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Phone icon */
+.phone-icon-container {
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: #1a2539;
+  cursor: pointer;
+}
+
+/* Time */
+.time {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Language Selector */
+.language-selector-container {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 3px;
+  margin-left: 10px;
+  background-color: #1a2539;
+}
+
+.language-selector {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}

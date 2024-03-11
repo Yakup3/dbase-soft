@@ -97,7 +97,7 @@ export default function Topbar() {
                   key={index}
                   className="socials-menu-item"
                   style={{
-                    borderBottom: `2px solid ${social.color}`,
+                    borderBottom: `0.14vw solid ${social.color}`,
                   }}
                 >
                   {social.icon}
